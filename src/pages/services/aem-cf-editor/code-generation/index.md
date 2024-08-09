@@ -357,10 +357,10 @@ Click on `Advanced`, the nex screen may vary from browser to browser, but you sh
 As mentioned before, you should have access to an AEM instance. For example, your URL should be structured like this:
 
 ```termminal
-https://experience.adobe.com/?repo=<CURTOMER_AEM_HOST>#/@<CUSTOMER_IMS_ORG>/aem/cf/admin/
+https://experience.adobe.com/?repo=<CUSTOMER_AEM_HOST>#/@<CUSTOMER_IMS_ORG>/aem/cf/admin/
 ```
 
-- repo (host name of AEM instance): `repo=<CURTOMER_AEM_HOST>`
+- repo (host name of AEM instance): `repo=<CUSTOMER_AEM_HOST>`
 
 For previewing and testing, you don't need to [publish the extension](../../../guides/publication). Instead, you can add extra parameters in the URL:
 
@@ -370,7 +370,7 @@ For previewing and testing, you don't need to [publish the extension](../../../g
 The final URL for local preview will look like:
 
 ```terminal
-https://experience.adobe.com/?ext=https://localhost:9080&repo=<CURTOMER_AEM_HOST>#/@<CUSTOMER_IMS_ORG>/aem/cf/editor/editor/<PATH_TO_CONTENT_FRAGMENT>
+https://experience.adobe.com/?ext=https://localhost:9080&repo=<CUSTOMER_AEM_HOST>#/@<CUSTOMER_IMS_ORG>/aem/cf/editor/editor/<PATH_TO_CONTENT_FRAGMENT>
 ```
 
 The system will process these parameters, making it work as if the extension was published.
